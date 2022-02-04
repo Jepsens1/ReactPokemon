@@ -38,7 +38,7 @@ export default class PokemonDetails extends React.Component<Props, State> {
                 <h3>Name: {this.state.pokemon.name}</h3>
                 <h3>Base Level: {this.state.pokemon.base_Level}</h3>
                 <h3>Type: {this.state.pokemon.poketype}</h3>
-                <button className="detailsbutton" ><Link className="linkbutton" to="/">Back to list</Link></button>
+                <button className="detailsbutton" ><Link className="linkbutton" to="/">Go Back</Link></button>
        </div>
         )};
     
