@@ -1,0 +1,28 @@
+.pokemonList{
+/*Display the pokemonList like a grid*/
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-gap: 10px;
+/*Make the pokemonList scrollable*/
+overflow-y: scroll;
+/* text under image */
+text-align: center;
+
+}
+.link{
+    /* make Link textdocartion none*/
+    text-decoration: none;
+    /* make Link textcolor black*/
+    color: black;
+    /* make Link textsize 20px*/
+    font-size: 20px;
+    /* hover effect */
+    
+}
+.link:hover{
+        color: #75d175;
+}
+.link:active
+{
+    color: red;
+}

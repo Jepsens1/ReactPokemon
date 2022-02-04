@@ -1,0 +1,14 @@
+.linkbutton {
+    /*make Link button textdocartion none*/
+    text-decoration: none;
+    /*make Link button textcolor white*/
+    color: black;
+    /*make Link button textsize 20px*/
+    font-size: 20px;
+}
+.detailsbutton {
+    /* make button rounded */
+    border-radius: 5px;
+    /* make button color*/
+    background-color: #75d175;
+}
